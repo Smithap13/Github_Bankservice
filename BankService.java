@@ -17,7 +17,7 @@ class BankService {
         BankService b = new BankService();
 
         b.showBalance();     // before
-        b.deposit(500);      // add money
+        b.deposit(700);      // add money
         b.withdraw(200);     // take money
         b.showBalance();     // after
     }
